@@ -1,0 +1,63 @@
+<html>
+<body>
+<pre>
+<h1>ﾋﾞﾙﾄﾞのﾛｸﾞ</h1>
+<h3>
+--------------------構成: Minia - Win32 Release--------------------
+</h3>
+<h3>ｺﾏﾝﾄﾞ ﾗｲﾝ</h3>
+Creating command line "rc.exe /l 0x411 /fo"Release/Minia.res" /d "NDEBUG" "D:\Projects\Minia\Minia.rc"" 
+一時ﾌｧｲﾙ "C:\WINDOWS\TEMP\RSPC325.TMP" を作成し、次の内容を記録します
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/Minia.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Projects\Minia\DDClass.cpp"
+"D:\Projects\Minia\MidiOut.cpp"
+"D:\Projects\Minia\Minia.cpp"
+"D:\Projects\Minia\texture.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPC325.TMP" 
+一時ﾌｧｲﾙ "C:\WINDOWS\TEMP\RSPC326.TMP" を作成し、次の内容を記録します
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib ddraw.lib dxguid.lib dinput.lib winmm.lib libcmt.lib msvcrt.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Minia.pdb" /machine:I386 /out:"Release/Minia.exe" 
+.\Release\DDClass.obj
+.\Release\MidiOut.obj
+.\Release\Minia.obj
+.\Release\texture.obj
+.\Release\Minia.res
+]
+ｺﾏﾝﾄﾞ ﾗｲﾝ "link.exe @C:\WINDOWS\TEMP\RSPC326.TMP" の作成中
+<h3>ｱｳﾄﾌﾟｯﾄ ｳｨﾝﾄﾞｳ</h3>
+ﾘｿｰｽをｺﾝﾊﾟｲﾙ中...
+ｺﾝﾊﾟｲﾙ中...
+DDClass.cpp
+MidiOut.cpp
+Minia.cpp
+D:\Projects\Minia\Minia.cpp(339) : warning C4244: '=' : 'double' から 'float' に変換しました。ﾃﾞｰﾀが失われているかもしれません。
+D:\Projects\Minia\Minia.cpp(347) : warning C4244: '=' : 'double' から 'float' に変換しました。ﾃﾞｰﾀが失われているかもしれません。
+D:\Projects\Minia\Minia.cpp(355) : warning C4244: '=' : 'double' から 'float' に変換しました。ﾃﾞｰﾀが失われているかもしれません。
+D:\Projects\Minia\Minia.cpp(365) : warning C4244: '=' : 'double' から 'float' に変換しました。ﾃﾞｰﾀが失われているかもしれません。
+D:\Projects\Minia\Minia.cpp(421) : warning C4244: '=' : 'int' から 'float' に変換しました。ﾃﾞｰﾀが失われているかもしれません。
+D:\Projects\Minia\Minia.cpp(422) : warning C4244: '=' : 'int' から 'float' に変換しました。ﾃﾞｰﾀが失われているかもしれません。
+D:\Projects\Minia\Minia.cpp(429) : warning C4244: '=' : 'int' から 'float' に変換しました。ﾃﾞｰﾀが失われているかもしれません。
+D:\Projects\Minia\Minia.cpp(430) : warning C4244: '=' : 'int' から 'float' に変換しました。ﾃﾞｰﾀが失われているかもしれません。
+D:\Projects\Minia\Minia.cpp(437) : warning C4244: '=' : 'int' から 'float' に変換しました。ﾃﾞｰﾀが失われているかもしれません。
+D:\Projects\Minia\Minia.cpp(438) : warning C4244: '=' : 'int' から 'float' に変換しました。ﾃﾞｰﾀが失われているかもしれません。
+D:\Projects\Minia\Minia.cpp(447) : warning C4244: '=' : 'int' から 'float' に変換しました。ﾃﾞｰﾀが失われているかもしれません。
+D:\Projects\Minia\Minia.cpp(448) : warning C4244: '=' : 'int' から 'float' に変換しました。ﾃﾞｰﾀが失われているかもしれません。
+D:\Projects\Minia\Minia.cpp(525) : warning C4244: '=' : 'float' から 'int' に変換しました。ﾃﾞｰﾀが失われているかもしれません。
+D:\Projects\Minia\Minia.cpp(540) : warning C4244: '=' : 'double' から 'float' に変換しました。ﾃﾞｰﾀが失われているかもしれません。
+D:\Projects\Minia\Minia.cpp(558) : warning C4244: '=' : 'double' から 'float' に変換しました。ﾃﾞｰﾀが失われているかもしれません。
+D:\Projects\Minia\Minia.cpp(572) : warning C4244: '=' : 'double' から 'float' に変換しました。ﾃﾞｰﾀが失われているかもしれません。
+D:\Projects\Minia\Minia.cpp(584) : warning C4244: '=' : 'double' から 'float' に変換しました。ﾃﾞｰﾀが失われているかもしれません。
+D:\Projects\Minia\Minia.cpp(585) : warning C4244: '=' : 'double' から 'float' に変換しました。ﾃﾞｰﾀが失われているかもしれません。
+texture.cpp
+ﾘﾝｸ中...
+LINK : warning LNK4098: defaultlib "LIBC" は他のﾗｲﾌﾞﾗﾘの使用と競合しています; /NODEFAULTLIB:library を使用してください
+
+
+
+<h3>結果</h3>
+Minia.exe - ｴﾗｰ 0、警告 19
+</pre>
+</body>
+</html>
